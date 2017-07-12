@@ -5,5 +5,9 @@ body{
 
 img{
 	max-width:100%;
-	heigt:auto;
+	height:auto;
+}
+
+* {
+	box-sizing:border-box;
 }
