@@ -9,7 +9,7 @@
     &--gutters>div{
         padding-right:65px
     }
-    @mixin atMedium{
+    @mixin atSmall{
         &__medium-4{
             float:left;
             width:33.33%;
