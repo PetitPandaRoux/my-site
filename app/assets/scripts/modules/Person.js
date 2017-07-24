@@ -1,10 +1,16 @@
-function Person(name,color){
-    this.name=name;
-    this.color=color;
-    his.greet = function(){
-        console.log("blabalbal");
+class Person{
+    constructor(name,color){
+        this.name=name;
+        this.color=color;
+    }
+
+    greet() {
+        console.log("INCROYABLE LE FICHIER EST LA ET FONCTIONNE MEME EN LE CHANGEANT");
     }
 
 }
+//Ici c'est la manière nouvelle ECMA 6 de faire notamment avec l'introduction des classes.
 
-module.exports=Person;
+export default Person;
+
+//ES5 méthode d'exportation : module.exports=Person;

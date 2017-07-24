@@ -1,4 +1,6 @@
-var Person=require('./modules/Person.js');
+var $=require('jquery');
+//var Person=require('./modules/Person.js');
+//import Person from './modules/Person';
+import MobileMenu from './modules/MobileMenu.js';
 
-var john = new Person("John Doe", "Red");
-var jane=""
+var mobileMenu=new MobileMenu();
