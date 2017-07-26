@@ -1,8 +1,11 @@
 module.exports={
-    entry:"/Users/usermkl/Desktop/Perso/monProjet/my-site/app/assets/scripts/App.js",
+    entry:{
+        App:"/Users/usermkl/Desktop/Perso/monProjet/my-site/app/assets/scripts/App.js",
+        Vendor:"/Users/usermkl/Desktop/Perso/monProjet/my-site/app/assets/scripts/Vendor.js",
+    },
     output:{
         path:"/Users/usermkl/Desktop/Perso/monProjet/my-site/app/temp/scripts",
-        filename:"App-bundle.js"
+        filename:"[name].js"
     },
 
     module:{
